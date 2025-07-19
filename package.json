@@ -1,0 +1,36 @@
+{
+  "name": "mern-stack-e-commerce-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "backend": "nodemon backend/index.js",
+    "E-Commerce": "npm run dev --prefix E-Commerce",
+    "dev": "concurrently \"npm run E-Commerce\" \"npm run backend\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aabedalla/MERN-Stack-E-Commerce-Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Aabedalla/MERN-Stack-E-Commerce-Project/issues"
+  },
+  "homepage": "https://github.com/Aabedalla/MERN-Stack-E-Commerce-Project#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "concurrently": "^9.2.0",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "express-async-handler": "^1.2.0",
+    "express-formidable": "^1.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.3",
+    "multer": "^2.0.1",
+    "nodemon": "^3.1.10"
+  }
+}
